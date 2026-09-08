@@ -20,6 +20,11 @@ polling loop, or extra background process.
 The popup shows cover art, title, artist, album, playback state, transport
 controls, and a source chooser when more than one media player is available.
 
+## Previews
+
+<img width="537" height="242" alt="image" src="https://github.com/user-attachments/assets/8bd6f5e2-1af7-4ef9-a437-610f51c7b1ee" />
+
+
 ## Install
 
 ```bash
