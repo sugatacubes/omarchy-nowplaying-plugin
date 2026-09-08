@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "now-playing.waveform",
+  "name": "Media Halo",
+  "version": "1.0.0",
+  "author": "Sugata",
+  "description": "Theme-aware now-playing controller with an animated circular waveform, rich media popup, and multi-player support.",
+  "license": "MIT",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Media Halo",
+    "description": "Animated circular waveform with playback controls and now-playing details",
+    "category": "Media",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "showTitle": false,
+      "maxLabelWidth": 180,
+      "ringBars": 12
+    },
+    "schema": [
+      {
+        "key": "showTitle",
+        "type": "boolean",
+        "label": "Show track title"
+      },
+      {
+        "key": "maxLabelWidth",
+        "type": "number",
+        "label": "Maximum title width"
+      },
+      {
+        "key": "ringBars",
+        "type": "number",
+        "label": "Waveform bar count"
+      }
+    ]
+  }
+}
